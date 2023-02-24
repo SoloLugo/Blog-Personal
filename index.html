@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog Jorge Lugo</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="./imagenes/800px-B-logo-1.png" class="logo_img">
+			<h2 class="BlogTitle">iografías.com</h2>
+		</div>
+		<nav>
+			<a target="_blank" href="https://youtu.be/dQw4w9WgXcQ" class="Links">Inicio</a>
+			<a target="_blank" href="https://twitter.com/jorg3LULO" class="Links">Redes Sociales</a>
+		</nav>
+	</header>
+
+	<video src="./video/Fondo2.mp4" autoplay loop muted class="videoBackground" type="video/mp4"></video>
+	<center><div class="CuadroBlanco">
+		<br><br>
+		<center><h1>¿Quién soy?</h1></center>
+		<div class="RecuadroLugo">
+			<img src="./imagenes/fotoLugo.jpg" class="foto1">
+			<p>Mi nombre es Jorge Enrique Lugo Lopez, tengo 18 años y nací en Garzón Huila el 31 de marzo del 2004. Mis gustos son jugar videojuegos (soy un gran fan de la saga de Halo :D), me gusta la programación y las matemáticas (pero solo cuando las entiendo bien ._.), me encanta comer, mis gustos musicales son muy variados pero por lo general escucho Rock y disfruto pasar el tiempo con amigos. Actualmente, estudio Ingeniería informática en la universidad de la sabana, pero me gustaría contarle al lector un pequeño resumen de mi vida y la trayectoria que he tenido para llegar hasta aquí.</p>
+		</div>
+		<h1>Mi trayectoria.</h1>
+		<h5>*Esta parte será un resumen de mi vida en base a recuerdos míos y de mi madre.</h5>
+		<p> En el 2007 entré a un jardín infantil llamado “Pequeñas Personitas” ubicado en Bogotá y de esta época de mi vida me acuerdo de ir caminando con mi mamá desde la casa hasta el jardín. También, Me acuerdo de conocer a dos amigos muy importantes ahí, uno se llamaba Juan Diego y el otro Sebastián, siempre estaba con ellos en el jardín y disfrutábamos jugar con unos carros de juguete que nos prestaban las profesoras. Pero, Juan Diego y yo nos separamos de Sebastián en el 2010 porque entrabamos a primero en el mismo colegio y perdimos el contacto de la Sebastián y su familia.</p>
+		<p>El colegio al cual entramos se llamaba “Liceo de Colombia” y la verdad no me acuerdo de muchas cosas de las que viví en ese lugar porque un año después tuve que mudarme a Neiva. Solo me acuerdo de conocer a un niño llamado Francisco con el cual fuimos buenos amigos y de estar con Juan Diego en las clases de lenguaje jugando a tirarnos bolas de papel. Cuando terminó el año escolar, mi Papá tuvo una oportunidad de trabajo en Neiva Huila y para el 2011 nos mudamos a una casa y me metieron en un colegio llamado “Colombus American School” del cual recuerdo de que era muy grande y que el primer día de clase me caí por una rampa por donde pasaban las rutas y termine vuelto una nada. También, nuestra casa estaba a unas cuadras de la casa de unos primos que eran mayores que yo, para esas fechas yo tenía 7 años y ellos tenía como 13 o 14 años. Con ellos siempre me peleaba y algunas veces terminábamos golpeándonos (claramente yo siempre perdía). Pero cuando ya cuando era fin de año, terminamos siendo buenos amigos y ellos me mostraron lo que sería ahora mi saga favorita de videojuegos llamada Halo.</p>
+		<p>Desde el 2012 hasta el 2016 volví al Liceo de Colombia y me reencontré con Juan Diego y Francisco. De esos años no ocurrieron muchas cosas importantes, solo la separación de mis padres lo cual nos hizo mudarnos a Cajicá con mi mamá. Al llegar a Cajicá nos quedamos un tiempo donde una tía que trabaja con desarrollo web, ella fue el motivo por el cual me gusta la informática. También cambie de colegio, se llamaba “Gimnasio campestre los Laureles” y ahí fue donde termine el colegio. </p>
+		<h1>Aspiraciones a futuro</h1>
+		<p>Espero a futuro terminar la carrera y poder salir del país, tengo familiares en otros lugares y me gustaría estar afuera por un tiempo para vivir una vida más independiente y aprovechar para viajar y colocarme nuevas metas que pueda cumplir en el futuro. </p>
+		<p>Si es posible, me gustaría trabajar en 343i (la desarrolladore de videojuegos que ahora mismo trabaja en Halo) porque me gustaría trabajar en el futuro de la saga y hacer que muchas otras personas conozcan las historias que cuentan.</p>
+		<br>
+
+	</div></center>
+
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		header{
+			display: flex;
+			justify-content: space-between;
+			height: 70px;
+			align-items: center;
+			padding: 10px;
+			background-color: rgba(110, 124, 171, 1.0);
+			animation-name: entraHeader;
+			animation-duration: 2s;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+			font-family: sans-serif;
+		}
+		nav a{
+			font-weight: 600;
+			padding-right: 15px;
+		}
+		nav a:hover{
+			color: white;
+		}
+		p{
+			font-family: sans-serif;
+		}
+		h5{
+			color: rgba(50, 50, 50, 0.7);
+		}
+		.foto1{
+			height: 250px;
+			border-radius: 50%;
+			padding-right: 30px;
+		}
+		.CuadroBlanco{
+			text-align: justify;
+			padding-left: 50px;
+			padding-right: 50px;
+			background-color: rgba(255, 255, 255,0.8);
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-bottom: 40px;
+			margin-top: 40px;
+			word-wrap: break-word;
+			animation-name: entraBlanco;
+			animation-duration: 5s;
+		}
+		.RecuadroLugo{
+			padding-top: 20px;
+			text-align: justify;
+			margin-right: 100px;
+			align-items: center;
+			display: flex;
+		}
+		@keyframes entraBlanco{
+			0%{background-color: rgba(255, 255, 255,0);}
+			100%{background-color: rgba(255, 255, 255,0.8);}
+		}
+		@keyframes entraHeader{
+			0%{background-color: rgba(110, 124, 171, 0);}
+			100%{background-color: rgba(110, 124, 171, 1);}
+		}
+		.videoBackground{
+			width: 100vw;
+  			height: 100vh;
+  			object-fit: cover;
+  			position: fixed;
+  			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			z-index: -1;
+		}
+		.logo{
+			display: flex;
+		}
+		.logo_img{
+			height: 50px;
+		}
+	</style>
+</body>
+</html>
